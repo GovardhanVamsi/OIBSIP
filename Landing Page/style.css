@@ -1,0 +1,85 @@
+body {
+    background: url("Tea\ house.webp");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position-y: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: none;
+    color: #1c3e0c;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #121314;
+    text-decoration: none;
+}
+
+section {
+    background-position: none;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row;
+}
+
+.column {
+    flex: 1;
+    margin: 20px;
+    background-color: none;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 ;
+}
+
+h2 {
+    color: #172118;
+}
+
+footer {
+    background-color: none;
+    color: #0e0d0e;
+    padding: 20px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}
+
+.button:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+}
+
